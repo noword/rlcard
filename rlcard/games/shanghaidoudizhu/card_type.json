@@ -1,0 +1,2542 @@
+{
+    "3": {
+        "type": "solo",
+        "rank": 0
+    },
+    "4": {
+        "type": "solo",
+        "rank": 1
+    },
+    "5": {
+        "type": "solo",
+        "rank": 2
+    },
+    "6": {
+        "type": "solo",
+        "rank": 3
+    },
+    "7": {
+        "type": "solo",
+        "rank": 4
+    },
+    "8": {
+        "type": "solo",
+        "rank": 5
+    },
+    "9": {
+        "type": "solo",
+        "rank": 6
+    },
+    "T": {
+        "type": "solo",
+        "rank": 7
+    },
+    "J": {
+        "type": "solo",
+        "rank": 8
+    },
+    "Q": {
+        "type": "solo",
+        "rank": 9
+    },
+    "K": {
+        "type": "solo",
+        "rank": 10
+    },
+    "A": {
+        "type": "solo",
+        "rank": 11
+    },
+    "2": {
+        "type": "solo",
+        "rank": 12
+    },
+    "B": {
+        "type": "solo",
+        "rank": 13
+    },
+    "R": {
+        "type": "solo",
+        "rank": 14
+    },
+    "33": {
+        "type": "pair",
+        "rank": 0
+    },
+    "44": {
+        "type": "pair",
+        "rank": 1
+    },
+    "55": {
+        "type": "pair",
+        "rank": 2
+    },
+    "66": {
+        "type": "pair",
+        "rank": 3
+    },
+    "77": {
+        "type": "pair",
+        "rank": 4
+    },
+    "88": {
+        "type": "pair",
+        "rank": 5
+    },
+    "99": {
+        "type": "pair",
+        "rank": 6
+    },
+    "TT": {
+        "type": "pair",
+        "rank": 7
+    },
+    "JJ": {
+        "type": "pair",
+        "rank": 8
+    },
+    "QQ": {
+        "type": "pair",
+        "rank": 9
+    },
+    "KK": {
+        "type": "pair",
+        "rank": 10
+    },
+    "AA": {
+        "type": "pair",
+        "rank": 11
+    },
+    "22": {
+        "type": "pair",
+        "rank": 12
+    },
+    "BB": {
+        "type": "pair",
+        "rank": 13
+    },
+    "RR": {
+        "type": "pair",
+        "rank": 14
+    },
+    "333": {
+        "type": "trio",
+        "rank": 0
+    },
+    "444": {
+        "type": "trio",
+        "rank": 1
+    },
+    "555": {
+        "type": "trio",
+        "rank": 2
+    },
+    "666": {
+        "type": "trio",
+        "rank": 3
+    },
+    "777": {
+        "type": "trio",
+        "rank": 4
+    },
+    "888": {
+        "type": "trio",
+        "rank": 5
+    },
+    "999": {
+        "type": "trio",
+        "rank": 6
+    },
+    "TTT": {
+        "type": "trio",
+        "rank": 7
+    },
+    "JJJ": {
+        "type": "trio",
+        "rank": 8
+    },
+    "QQQ": {
+        "type": "trio",
+        "rank": 9
+    },
+    "KKK": {
+        "type": "trio",
+        "rank": 10
+    },
+    "AAA": {
+        "type": "trio",
+        "rank": 11
+    },
+    "222": {
+        "type": "trio",
+        "rank": 12
+    },
+    "345A2": {
+        "type": "solo_chain_5",
+        "rank": 0
+    },
+    "34562": {
+        "type": "solo_chain_5",
+        "rank": 1
+    },
+    "34567": {
+        "type": "solo_chain_5",
+        "rank": 2
+    },
+    "45678": {
+        "type": "solo_chain_5",
+        "rank": 3
+    },
+    "56789": {
+        "type": "solo_chain_5",
+        "rank": 4
+    },
+    "6789T": {
+        "type": "solo_chain_5",
+        "rank": 5
+    },
+    "789TJ": {
+        "type": "solo_chain_5",
+        "rank": 6
+    },
+    "89TJQ": {
+        "type": "solo_chain_5",
+        "rank": 7
+    },
+    "9TJQK": {
+        "type": "solo_chain_5",
+        "rank": 8
+    },
+    "TJQKA": {
+        "type": "solo_chain_5",
+        "rank": 9
+    },
+    "3456A2": {
+        "type": "solo_chain_6",
+        "rank": 0
+    },
+    "345672": {
+        "type": "solo_chain_6",
+        "rank": 1
+    },
+    "345678": {
+        "type": "solo_chain_6",
+        "rank": 2
+    },
+    "456789": {
+        "type": "solo_chain_6",
+        "rank": 3
+    },
+    "56789T": {
+        "type": "solo_chain_6",
+        "rank": 4
+    },
+    "6789TJ": {
+        "type": "solo_chain_6",
+        "rank": 5
+    },
+    "789TJQ": {
+        "type": "solo_chain_6",
+        "rank": 6
+    },
+    "89TJQK": {
+        "type": "solo_chain_6",
+        "rank": 7
+    },
+    "9TJQKA": {
+        "type": "solo_chain_6",
+        "rank": 8
+    },
+    "34567A2": {
+        "type": "solo_chain_7",
+        "rank": 0
+    },
+    "3456782": {
+        "type": "solo_chain_7",
+        "rank": 1
+    },
+    "3456789": {
+        "type": "solo_chain_7",
+        "rank": 2
+    },
+    "456789T": {
+        "type": "solo_chain_7",
+        "rank": 3
+    },
+    "56789TJ": {
+        "type": "solo_chain_7",
+        "rank": 4
+    },
+    "6789TJQ": {
+        "type": "solo_chain_7",
+        "rank": 5
+    },
+    "789TJQK": {
+        "type": "solo_chain_7",
+        "rank": 6
+    },
+    "89TJQKA": {
+        "type": "solo_chain_7",
+        "rank": 7
+    },
+    "345678A2": {
+        "type": "solo_chain_8",
+        "rank": 0
+    },
+    "34567892": {
+        "type": "solo_chain_8",
+        "rank": 1
+    },
+    "3456789T": {
+        "type": "solo_chain_8",
+        "rank": 2
+    },
+    "456789TJ": {
+        "type": "solo_chain_8",
+        "rank": 3
+    },
+    "56789TJQ": {
+        "type": "solo_chain_8",
+        "rank": 4
+    },
+    "6789TJQK": {
+        "type": "solo_chain_8",
+        "rank": 5
+    },
+    "789TJQKA": {
+        "type": "solo_chain_8",
+        "rank": 6
+    },
+    "3456789A2": {
+        "type": "solo_chain_9",
+        "rank": 0
+    },
+    "3456789T2": {
+        "type": "solo_chain_9",
+        "rank": 1
+    },
+    "3456789TJ": {
+        "type": "solo_chain_9",
+        "rank": 2
+    },
+    "456789TJQ": {
+        "type": "solo_chain_9",
+        "rank": 3
+    },
+    "56789TJQK": {
+        "type": "solo_chain_9",
+        "rank": 4
+    },
+    "6789TJQKA": {
+        "type": "solo_chain_9",
+        "rank": 5
+    },
+    "3456789TA2": {
+        "type": "solo_chain_10",
+        "rank": 0
+    },
+    "3456789TJ2": {
+        "type": "solo_chain_10",
+        "rank": 1
+    },
+    "3456789TJQ": {
+        "type": "solo_chain_10",
+        "rank": 2
+    },
+    "456789TJQK": {
+        "type": "solo_chain_10",
+        "rank": 3
+    },
+    "56789TJQKA": {
+        "type": "solo_chain_10",
+        "rank": 4
+    },
+    "3456789TJA2": {
+        "type": "solo_chain_11",
+        "rank": 0
+    },
+    "3456789TJQ2": {
+        "type": "solo_chain_11",
+        "rank": 1
+    },
+    "3456789TJQK": {
+        "type": "solo_chain_11",
+        "rank": 2
+    },
+    "456789TJQKA": {
+        "type": "solo_chain_11",
+        "rank": 3
+    },
+    "3456789TJQA2": {
+        "type": "solo_chain_12",
+        "rank": 0
+    },
+    "3456789TJQK2": {
+        "type": "solo_chain_12",
+        "rank": 1
+    },
+    "3456789TJQKA": {
+        "type": "solo_chain_12",
+        "rank": 2
+    },
+    "3456789TJQKA2": {
+        "type": "solo_chain_13",
+        "rank": 1
+    },
+    "3456789TJQKAA2": {
+        "type": "solo_chain_14",
+        "rank": 0
+    },
+    "33AA22": {
+        "type": "pair_chain_3",
+        "rank": 0
+    },
+    "334422": {
+        "type": "pair_chain_3",
+        "rank": 1
+    },
+    "334455": {
+        "type": "pair_chain_3",
+        "rank": 2
+    },
+    "445566": {
+        "type": "pair_chain_3",
+        "rank": 3
+    },
+    "556677": {
+        "type": "pair_chain_3",
+        "rank": 4
+    },
+    "667788": {
+        "type": "pair_chain_3",
+        "rank": 5
+    },
+    "778899": {
+        "type": "pair_chain_3",
+        "rank": 6
+    },
+    "8899TT": {
+        "type": "pair_chain_3",
+        "rank": 7
+    },
+    "99TTJJ": {
+        "type": "pair_chain_3",
+        "rank": 8
+    },
+    "TTJJQQ": {
+        "type": "pair_chain_3",
+        "rank": 9
+    },
+    "JJQQKK": {
+        "type": "pair_chain_3",
+        "rank": 10
+    },
+    "QQKKAA": {
+        "type": "pair_chain_3",
+        "rank": 11
+    },
+    "3344AA22": {
+        "type": "pair_chain_4",
+        "rank": 0
+    },
+    "33445522": {
+        "type": "pair_chain_4",
+        "rank": 1
+    },
+    "33445566": {
+        "type": "pair_chain_4",
+        "rank": 2
+    },
+    "44556677": {
+        "type": "pair_chain_4",
+        "rank": 3
+    },
+    "55667788": {
+        "type": "pair_chain_4",
+        "rank": 4
+    },
+    "66778899": {
+        "type": "pair_chain_4",
+        "rank": 5
+    },
+    "778899TT": {
+        "type": "pair_chain_4",
+        "rank": 6
+    },
+    "8899TTJJ": {
+        "type": "pair_chain_4",
+        "rank": 7
+    },
+    "99TTJJQQ": {
+        "type": "pair_chain_4",
+        "rank": 8
+    },
+    "TTJJQQKK": {
+        "type": "pair_chain_4",
+        "rank": 9
+    },
+    "JJQQKKAA": {
+        "type": "pair_chain_4",
+        "rank": 10
+    },
+    "334455AA22": {
+        "type": "pair_chain_5",
+        "rank": 0
+    },
+    "3344556622": {
+        "type": "pair_chain_5",
+        "rank": 1
+    },
+    "3344556677": {
+        "type": "pair_chain_5",
+        "rank": 2
+    },
+    "4455667788": {
+        "type": "pair_chain_5",
+        "rank": 3
+    },
+    "5566778899": {
+        "type": "pair_chain_5",
+        "rank": 4
+    },
+    "66778899TT": {
+        "type": "pair_chain_5",
+        "rank": 5
+    },
+    "778899TTJJ": {
+        "type": "pair_chain_5",
+        "rank": 6
+    },
+    "8899TTJJQQ": {
+        "type": "pair_chain_5",
+        "rank": 7
+    },
+    "99TTJJQQKK": {
+        "type": "pair_chain_5",
+        "rank": 8
+    },
+    "TTJJQQKKAA": {
+        "type": "pair_chain_5",
+        "rank": 9
+    },
+    "33445566AA22": {
+        "type": "pair_chain_6",
+        "rank": 0
+    },
+    "334455667722": {
+        "type": "pair_chain_6",
+        "rank": 1
+    },
+    "334455667788": {
+        "type": "pair_chain_6",
+        "rank": 2
+    },
+    "445566778899": {
+        "type": "pair_chain_6",
+        "rank": 3
+    },
+    "5566778899TT": {
+        "type": "pair_chain_6",
+        "rank": 4
+    },
+    "66778899TTJJ": {
+        "type": "pair_chain_6",
+        "rank": 5
+    },
+    "778899TTJJQQ": {
+        "type": "pair_chain_6",
+        "rank": 6
+    },
+    "8899TTJJQQKK": {
+        "type": "pair_chain_6",
+        "rank": 7
+    },
+    "99TTJJQQKKAA": {
+        "type": "pair_chain_6",
+        "rank": 8
+    },
+    "3344556677AA22": {
+        "type": "pair_chain_7",
+        "rank": 0
+    },
+    "33445566778822": {
+        "type": "pair_chain_7",
+        "rank": 1
+    },
+    "33445566778899": {
+        "type": "pair_chain_7",
+        "rank": 2
+    },
+    "445566778899TT": {
+        "type": "pair_chain_7",
+        "rank": 3
+    },
+    "5566778899TTJJ": {
+        "type": "pair_chain_7",
+        "rank": 4
+    },
+    "66778899TTJJQQ": {
+        "type": "pair_chain_7",
+        "rank": 5
+    },
+    "778899TTJJQQKK": {
+        "type": "pair_chain_7",
+        "rank": 6
+    },
+    "8899TTJJQQKKAA": {
+        "type": "pair_chain_7",
+        "rank": 7
+    },
+    "334455667788AA22": {
+        "type": "pair_chain_8",
+        "rank": 0
+    },
+    "3344556677889922": {
+        "type": "pair_chain_8",
+        "rank": 1
+    },
+    "33445566778899TT": {
+        "type": "pair_chain_8",
+        "rank": 2
+    },
+    "445566778899TTJJ": {
+        "type": "pair_chain_8",
+        "rank": 3
+    },
+    "5566778899TTJJQQ": {
+        "type": "pair_chain_8",
+        "rank": 4
+    },
+    "66778899TTJJQQKK": {
+        "type": "pair_chain_8",
+        "rank": 5
+    },
+    "778899TTJJQQKKAA": {
+        "type": "pair_chain_8",
+        "rank": 6
+    },
+    "33445566778899AA22": {
+        "type": "pair_chain_9",
+        "rank": 0
+    },
+    "33445566778899TT22": {
+        "type": "pair_chain_9",
+        "rank": 1
+    },
+    "33445566778899TTJJ": {
+        "type": "pair_chain_9",
+        "rank": 2
+    },
+    "445566778899TTJJQQ": {
+        "type": "pair_chain_9",
+        "rank": 3
+    },
+    "5566778899TTJJQQKK": {
+        "type": "pair_chain_9",
+        "rank": 4
+    },
+    "66778899TTJJQQKKAA": {
+        "type": "pair_chain_9",
+        "rank": 5
+    },
+    "33445566778899TTAA22": {
+        "type": "pair_chain_10",
+        "rank": 0
+    },
+    "33445566778899TTJJ22": {
+        "type": "pair_chain_10",
+        "rank": 1
+    },
+    "33445566778899TTJJQQ": {
+        "type": "pair_chain_10",
+        "rank": 2
+    },
+    "445566778899TTJJQQKK": {
+        "type": "pair_chain_10",
+        "rank": 3
+    },
+    "5566778899TTJJQQKKAA": {
+        "type": "pair_chain_10",
+        "rank": 4
+    },
+    "33445566778899TTJJAA22": {
+        "type": "pair_chain_11",
+        "rank": 0
+    },
+    "33445566778899TTJJQQ22": {
+        "type": "pair_chain_11",
+        "rank": 1
+    },
+    "33445566778899TTJJQQKK": {
+        "type": "pair_chain_11",
+        "rank": 2
+    },
+    "445566778899TTJJQQKKAA": {
+        "type": "pair_chain_11",
+        "rank": 3
+    },
+    "33445566778899TTJJQQAA22": {
+        "type": "pair_chain_12",
+        "rank": 0
+    },
+    "33445566778899TTJJQQKK22": {
+        "type": "pair_chain_12",
+        "rank": 1
+    },
+    "33445566778899TTJJQQKKAA": {
+        "type": "pair_chain_12",
+        "rank": 2
+    },
+    "33445566778899TTJJQQKKAA22": {
+        "type": "pair_chain_13",
+        "rank": 1
+    },
+    "33445566778899TTJJQQKKAAAA22": {
+        "type": "pair_chain_14",
+        "rank": 0
+    },
+    "AAA222": {
+        "type": "trio_chain_2",
+        "rank": 0
+    },
+    "333222": {
+        "type": "trio_chain_2",
+        "rank": 1
+    },
+    "333444": {
+        "type": "trio_chain_2",
+        "rank": 2
+    },
+    "444555": {
+        "type": "trio_chain_2",
+        "rank": 3
+    },
+    "555666": {
+        "type": "trio_chain_2",
+        "rank": 4
+    },
+    "666777": {
+        "type": "trio_chain_2",
+        "rank": 5
+    },
+    "777888": {
+        "type": "trio_chain_2",
+        "rank": 6
+    },
+    "888999": {
+        "type": "trio_chain_2",
+        "rank": 7
+    },
+    "999TTT": {
+        "type": "trio_chain_2",
+        "rank": 8
+    },
+    "TTTJJJ": {
+        "type": "trio_chain_2",
+        "rank": 9
+    },
+    "JJJQQQ": {
+        "type": "trio_chain_2",
+        "rank": 10
+    },
+    "QQQKKK": {
+        "type": "trio_chain_2",
+        "rank": 11
+    },
+    "KKKAAA": {
+        "type": "trio_chain_2",
+        "rank": 12
+    },
+    "333AAA222": {
+        "type": "trio_chain_3",
+        "rank": 0
+    },
+    "333444222": {
+        "type": "trio_chain_3",
+        "rank": 1
+    },
+    "333444555": {
+        "type": "trio_chain_3",
+        "rank": 2
+    },
+    "444555666": {
+        "type": "trio_chain_3",
+        "rank": 3
+    },
+    "555666777": {
+        "type": "trio_chain_3",
+        "rank": 4
+    },
+    "666777888": {
+        "type": "trio_chain_3",
+        "rank": 5
+    },
+    "777888999": {
+        "type": "trio_chain_3",
+        "rank": 6
+    },
+    "888999TTT": {
+        "type": "trio_chain_3",
+        "rank": 7
+    },
+    "999TTTJJJ": {
+        "type": "trio_chain_3",
+        "rank": 8
+    },
+    "TTTJJJQQQ": {
+        "type": "trio_chain_3",
+        "rank": 9
+    },
+    "JJJQQQKKK": {
+        "type": "trio_chain_3",
+        "rank": 10
+    },
+    "QQQKKKAAA": {
+        "type": "trio_chain_3",
+        "rank": 11
+    },
+    "333444AAA222": {
+        "type": "trio_chain_4",
+        "rank": 0
+    },
+    "333444555222": {
+        "type": "trio_chain_4",
+        "rank": 1
+    },
+    "333444555666": {
+        "type": "trio_chain_4",
+        "rank": 2
+    },
+    "444555666777": {
+        "type": "trio_chain_4",
+        "rank": 3
+    },
+    "555666777888": {
+        "type": "trio_chain_4",
+        "rank": 4
+    },
+    "666777888999": {
+        "type": "trio_chain_4",
+        "rank": 5
+    },
+    "777888999TTT": {
+        "type": "trio_chain_4",
+        "rank": 6
+    },
+    "888999TTTJJJ": {
+        "type": "trio_chain_4",
+        "rank": 7
+    },
+    "999TTTJJJQQQ": {
+        "type": "trio_chain_4",
+        "rank": 8
+    },
+    "TTTJJJQQQKKK": {
+        "type": "trio_chain_4",
+        "rank": 9
+    },
+    "JJJQQQKKKAAA": {
+        "type": "trio_chain_4",
+        "rank": 10
+    },
+    "333444555AAA222": {
+        "type": "trio_chain_5",
+        "rank": 0
+    },
+    "333444555666222": {
+        "type": "trio_chain_5",
+        "rank": 1
+    },
+    "333444555666777": {
+        "type": "trio_chain_5",
+        "rank": 2
+    },
+    "444555666777888": {
+        "type": "trio_chain_5",
+        "rank": 3
+    },
+    "555666777888999": {
+        "type": "trio_chain_5",
+        "rank": 4
+    },
+    "666777888999TTT": {
+        "type": "trio_chain_5",
+        "rank": 5
+    },
+    "777888999TTTJJJ": {
+        "type": "trio_chain_5",
+        "rank": 6
+    },
+    "888999TTTJJJQQQ": {
+        "type": "trio_chain_5",
+        "rank": 7
+    },
+    "999TTTJJJQQQKKK": {
+        "type": "trio_chain_5",
+        "rank": 8
+    },
+    "TTTJJJQQQKKKAAA": {
+        "type": "trio_chain_5",
+        "rank": 9
+    },
+    "333444555666AAA222": {
+        "type": "trio_chain_6",
+        "rank": 0
+    },
+    "333444555666777222": {
+        "type": "trio_chain_6",
+        "rank": 1
+    },
+    "333444555666777888": {
+        "type": "trio_chain_6",
+        "rank": 2
+    },
+    "444555666777888999": {
+        "type": "trio_chain_6",
+        "rank": 3
+    },
+    "555666777888999TTT": {
+        "type": "trio_chain_6",
+        "rank": 4
+    },
+    "666777888999TTTJJJ": {
+        "type": "trio_chain_6",
+        "rank": 5
+    },
+    "777888999TTTJJJQQQ": {
+        "type": "trio_chain_6",
+        "rank": 6
+    },
+    "888999TTTJJJQQQKKK": {
+        "type": "trio_chain_6",
+        "rank": 7
+    },
+    "999TTTJJJQQQKKKAAA": {
+        "type": "trio_chain_6",
+        "rank": 8
+    },
+    "333444555666777AAA222": {
+        "type": "trio_chain_7",
+        "rank": 0
+    },
+    "333444555666777888222": {
+        "type": "trio_chain_7",
+        "rank": 1
+    },
+    "333444555666777888999": {
+        "type": "trio_chain_7",
+        "rank": 2
+    },
+    "444555666777888999TTT": {
+        "type": "trio_chain_7",
+        "rank": 3
+    },
+    "555666777888999TTTJJJ": {
+        "type": "trio_chain_7",
+        "rank": 4
+    },
+    "666777888999TTTJJJQQQ": {
+        "type": "trio_chain_7",
+        "rank": 5
+    },
+    "777888999TTTJJJQQQKKK": {
+        "type": "trio_chain_7",
+        "rank": 6
+    },
+    "888999TTTJJJQQQKKKAAA": {
+        "type": "trio_chain_7",
+        "rank": 7
+    },
+    "333444555666777888AAA222": {
+        "type": "trio_chain_8",
+        "rank": 0
+    },
+    "333444555666777888999222": {
+        "type": "trio_chain_8",
+        "rank": 1
+    },
+    "333444555666777888999TTT": {
+        "type": "trio_chain_8",
+        "rank": 2
+    },
+    "444555666777888999TTTJJJ": {
+        "type": "trio_chain_8",
+        "rank": 3
+    },
+    "555666777888999TTTJJJQQQ": {
+        "type": "trio_chain_8",
+        "rank": 4
+    },
+    "666777888999TTTJJJQQQKKK": {
+        "type": "trio_chain_8",
+        "rank": 5
+    },
+    "777888999TTTJJJQQQKKKAAA": {
+        "type": "trio_chain_8",
+        "rank": 6
+    },
+    "333444555666777888999AAA222": {
+        "type": "trio_chain_9",
+        "rank": 0
+    },
+    "333444555666777888999TTT222": {
+        "type": "trio_chain_9",
+        "rank": 1
+    },
+    "333444555666777888999TTTJJJ": {
+        "type": "trio_chain_9",
+        "rank": 2
+    },
+    "444555666777888999TTTJJJQQQ": {
+        "type": "trio_chain_9",
+        "rank": 3
+    },
+    "555666777888999TTTJJJQQQKKK": {
+        "type": "trio_chain_9",
+        "rank": 4
+    },
+    "666777888999TTTJJJQQQKKKAAA": {
+        "type": "trio_chain_9",
+        "rank": 5
+    },
+    "333444555666777888999TTTAAA222": {
+        "type": "trio_chain_10",
+        "rank": 0
+    },
+    "333444555666777888999TTTJJJ222": {
+        "type": "trio_chain_10",
+        "rank": 1
+    },
+    "333444555666777888999TTTJJJQQQ": {
+        "type": "trio_chain_10",
+        "rank": 2
+    },
+    "444555666777888999TTTJJJQQQKKK": {
+        "type": "trio_chain_10",
+        "rank": 3
+    },
+    "555666777888999TTTJJJQQQKKKAAA": {
+        "type": "trio_chain_10",
+        "rank": 4
+    },
+    "333444555666777888999TTTJJJAAA222": {
+        "type": "trio_chain_11",
+        "rank": 0
+    },
+    "333444555666777888999TTTJJJQQQ222": {
+        "type": "trio_chain_11",
+        "rank": 1
+    },
+    "333444555666777888999TTTJJJQQQKKK": {
+        "type": "trio_chain_11",
+        "rank": 2
+    },
+    "444555666777888999TTTJJJQQQKKKAAA": {
+        "type": "trio_chain_11",
+        "rank": 3
+    },
+    "3344AAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "4455AAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "5566AAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "6677AAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "7788AAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "8899AAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "99TTAAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "TTJJAAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "JJQQAAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "QQKKAAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 0
+    },
+    "3334455222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "3335566222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "3336677222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "3337788222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "3338899222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "33399TT222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "333TTJJ222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "333JJQQ222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "333QQKK222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "333KKAA222": {
+        "type": "trio_pair_chain_2",
+        "rank": 1
+    },
+    "333444AA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "3334445566": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "3334446677": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "3334447788": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "3334448899": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "33344499TT": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "333444TTJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "333444JJQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "333444QQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "333444KKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 2
+    },
+    "444555AA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "3344455522": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "4445556677": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "4445557788": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "4445558899": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "44455599TT": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "444555TTJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "444555JJQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "444555QQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "444555KKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 3
+    },
+    "555666AA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "3355566622": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "3344555666": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "5556667788": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "5556668899": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "55566699TT": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "555666TTJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "555666JJQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "555666QQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "555666KKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 4
+    },
+    "666777AA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "3366677722": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "3344666777": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "4455666777": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "6667778899": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "66677799TT": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "666777TTJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "666777JJQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "666777QQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "666777KKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 5
+    },
+    "777888AA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "3377788822": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "3344777888": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "4455777888": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "5566777888": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "77788899TT": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "777888TTJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "777888JJQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "777888QQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "777888KKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 6
+    },
+    "888999AA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "3388899922": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "3344888999": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "4455888999": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "5566888999": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "6677888999": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "888999TTJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "888999JJQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "888999QQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "888999KKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 7
+    },
+    "999TTTAA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "33999TTT22": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "3344999TTT": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "4455999TTT": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "5566999TTT": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "6677999TTT": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "7788999TTT": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "999TTTJJQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "999TTTQQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "999TTTKKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 8
+    },
+    "TTTJJJAA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "33TTTJJJ22": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "3344TTTJJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "4455TTTJJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "5566TTTJJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "6677TTTJJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "7788TTTJJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "8899TTTJJJ": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "TTTJJJQQKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "TTTJJJKKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 9
+    },
+    "JJJQQQAA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "33JJJQQQ22": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "3344JJJQQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "4455JJJQQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "5566JJJQQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "6677JJJQQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "7788JJJQQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "8899JJJQQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "99TTJJJQQQ": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "JJJQQQKKAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 10
+    },
+    "QQQKKKAA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "33QQQKKK22": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "3344QQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "4455QQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "5566QQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "6677QQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "7788QQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "8899QQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "99TTQQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "TTJJQQQKKK": {
+        "type": "trio_pair_chain_2",
+        "rank": 11
+    },
+    "33KKKAAA22": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "3344KKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "4455KKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "5566KKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "6677KKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "7788KKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "8899KKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "99TTKKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "TTJJKKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "JJQQKKKAAA": {
+        "type": "trio_pair_chain_2",
+        "rank": 12
+    },
+    "333445566AAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "333556677AAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "333667788AAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "333778899AAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "3338899TTAAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "33399TTJJAAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "333TTJJQQAAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "333JJQQKKAAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 0
+    },
+    "333444556677222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "333444667788222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "333444778899222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "3334448899TT222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "33344499TTJJ222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "333444TTJJQQ222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "333444JJQQKK222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "333444QQKKAA222": {
+        "type": "trio_pair_chain_3",
+        "rank": 1
+    },
+    "333444555667788": {
+        "type": "trio_pair_chain_3",
+        "rank": 2
+    },
+    "333444555778899": {
+        "type": "trio_pair_chain_3",
+        "rank": 2
+    },
+    "3334445558899TT": {
+        "type": "trio_pair_chain_3",
+        "rank": 2
+    },
+    "33344455599TTJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 2
+    },
+    "333444555TTJJQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 2
+    },
+    "333444555JJQQKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 2
+    },
+    "333444555QQKKAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 2
+    },
+    "33444555666AA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 3
+    },
+    "444555666778899": {
+        "type": "trio_pair_chain_3",
+        "rank": 3
+    },
+    "4445556668899TT": {
+        "type": "trio_pair_chain_3",
+        "rank": 3
+    },
+    "44455566699TTJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 3
+    },
+    "444555666TTJJQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 3
+    },
+    "444555666JJQQKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 3
+    },
+    "444555666QQKKAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 3
+    },
+    "33555666777AA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 4
+    },
+    "334455566677722": {
+        "type": "trio_pair_chain_3",
+        "rank": 4
+    },
+    "5556667778899TT": {
+        "type": "trio_pair_chain_3",
+        "rank": 4
+    },
+    "55566677799TTJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 4
+    },
+    "555666777TTJJQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 4
+    },
+    "555666777JJQQKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 4
+    },
+    "555666777QQKKAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 4
+    },
+    "33666777888AA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 5
+    },
+    "334466677788822": {
+        "type": "trio_pair_chain_3",
+        "rank": 5
+    },
+    "334455666777888": {
+        "type": "trio_pair_chain_3",
+        "rank": 5
+    },
+    "66677788899TTJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 5
+    },
+    "666777888TTJJQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 5
+    },
+    "666777888JJQQKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 5
+    },
+    "666777888QQKKAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 5
+    },
+    "33777888999AA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 6
+    },
+    "334477788899922": {
+        "type": "trio_pair_chain_3",
+        "rank": 6
+    },
+    "334455777888999": {
+        "type": "trio_pair_chain_3",
+        "rank": 6
+    },
+    "445566777888999": {
+        "type": "trio_pair_chain_3",
+        "rank": 6
+    },
+    "777888999TTJJQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 6
+    },
+    "777888999JJQQKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 6
+    },
+    "777888999QQKKAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 6
+    },
+    "33888999TTTAA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 7
+    },
+    "3344888999TTT22": {
+        "type": "trio_pair_chain_3",
+        "rank": 7
+    },
+    "334455888999TTT": {
+        "type": "trio_pair_chain_3",
+        "rank": 7
+    },
+    "445566888999TTT": {
+        "type": "trio_pair_chain_3",
+        "rank": 7
+    },
+    "556677888999TTT": {
+        "type": "trio_pair_chain_3",
+        "rank": 7
+    },
+    "888999TTTJJQQKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 7
+    },
+    "888999TTTQQKKAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 7
+    },
+    "33999TTTJJJAA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 8
+    },
+    "3344999TTTJJJ22": {
+        "type": "trio_pair_chain_3",
+        "rank": 8
+    },
+    "334455999TTTJJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 8
+    },
+    "445566999TTTJJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 8
+    },
+    "556677999TTTJJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 8
+    },
+    "667788999TTTJJJ": {
+        "type": "trio_pair_chain_3",
+        "rank": 8
+    },
+    "999TTTJJJQQKKAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 8
+    },
+    "33TTTJJJQQQAA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 9
+    },
+    "3344TTTJJJQQQ22": {
+        "type": "trio_pair_chain_3",
+        "rank": 9
+    },
+    "334455TTTJJJQQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 9
+    },
+    "445566TTTJJJQQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 9
+    },
+    "556677TTTJJJQQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 9
+    },
+    "667788TTTJJJQQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 9
+    },
+    "778899TTTJJJQQQ": {
+        "type": "trio_pair_chain_3",
+        "rank": 9
+    },
+    "33JJJQQQKKKAA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "3344JJJQQQKKK22": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "334455JJJQQQKKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "445566JJJQQQKKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "556677JJJQQQKKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "667788JJJQQQKKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "778899JJJQQQKKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "8899TTJJJQQQKKK": {
+        "type": "trio_pair_chain_3",
+        "rank": 10
+    },
+    "3344QQQKKKAAA22": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "334455QQQKKKAAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "445566QQQKKKAAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "556677QQQKKKAAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "667788QQQKKKAAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "778899QQQKKKAAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "8899TTQQQKKKAAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "99TTJJQQQKKKAAA": {
+        "type": "trio_pair_chain_3",
+        "rank": 11
+    },
+    "33344455667788AAA222": {
+        "type": "trio_pair_chain_4",
+        "rank": 0
+    },
+    "33344466778899AAA222": {
+        "type": "trio_pair_chain_4",
+        "rank": 0
+    },
+    "333444778899TTAAA222": {
+        "type": "trio_pair_chain_4",
+        "rank": 0
+    },
+    "3334448899TTJJAAA222": {
+        "type": "trio_pair_chain_4",
+        "rank": 0
+    },
+    "33344499TTJJQQAAA222": {
+        "type": "trio_pair_chain_4",
+        "rank": 0
+    },
+    "333444TTJJQQKKAAA222": {
+        "type": "trio_pair_chain_4",
+        "rank": 0
+    },
+    "33344455566778899222": {
+        "type": "trio_pair_chain_4",
+        "rank": 1
+    },
+    "333444555778899TT222": {
+        "type": "trio_pair_chain_4",
+        "rank": 1
+    },
+    "3334445558899TTJJ222": {
+        "type": "trio_pair_chain_4",
+        "rank": 1
+    },
+    "33344455599TTJJQQ222": {
+        "type": "trio_pair_chain_4",
+        "rank": 1
+    },
+    "333444555TTJJQQKK222": {
+        "type": "trio_pair_chain_4",
+        "rank": 1
+    },
+    "333444555JJQQKKAA222": {
+        "type": "trio_pair_chain_4",
+        "rank": 1
+    },
+    "333444555666778899TT": {
+        "type": "trio_pair_chain_4",
+        "rank": 2
+    },
+    "3334445556668899TTJJ": {
+        "type": "trio_pair_chain_4",
+        "rank": 2
+    },
+    "33344455566699TTJJQQ": {
+        "type": "trio_pair_chain_4",
+        "rank": 2
+    },
+    "333444555666TTJJQQKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 2
+    },
+    "333444555666JJQQKKAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 2
+    },
+    "4445556667778899TTJJ": {
+        "type": "trio_pair_chain_4",
+        "rank": 3
+    },
+    "44455566677799TTJJQQ": {
+        "type": "trio_pair_chain_4",
+        "rank": 3
+    },
+    "444555666777TTJJQQKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 3
+    },
+    "444555666777JJQQKKAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 3
+    },
+    "3344555666777888AA22": {
+        "type": "trio_pair_chain_4",
+        "rank": 4
+    },
+    "55566677788899TTJJQQ": {
+        "type": "trio_pair_chain_4",
+        "rank": 4
+    },
+    "555666777888TTJJQQKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 4
+    },
+    "555666777888JJQQKKAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 4
+    },
+    "3344666777888999AA22": {
+        "type": "trio_pair_chain_4",
+        "rank": 5
+    },
+    "33445566677788899922": {
+        "type": "trio_pair_chain_4",
+        "rank": 5
+    },
+    "666777888999TTJJQQKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 5
+    },
+    "666777888999JJQQKKAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 5
+    },
+    "3344777888999TTTAA22": {
+        "type": "trio_pair_chain_4",
+        "rank": 6
+    },
+    "334455777888999TTT22": {
+        "type": "trio_pair_chain_4",
+        "rank": 6
+    },
+    "33445566777888999TTT": {
+        "type": "trio_pair_chain_4",
+        "rank": 6
+    },
+    "777888999TTTJJQQKKAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 6
+    },
+    "3344888999TTTJJJAA22": {
+        "type": "trio_pair_chain_4",
+        "rank": 7
+    },
+    "334455888999TTTJJJ22": {
+        "type": "trio_pair_chain_4",
+        "rank": 7
+    },
+    "33445566888999TTTJJJ": {
+        "type": "trio_pair_chain_4",
+        "rank": 7
+    },
+    "44556677888999TTTJJJ": {
+        "type": "trio_pair_chain_4",
+        "rank": 7
+    },
+    "3344999TTTJJJQQQAA22": {
+        "type": "trio_pair_chain_4",
+        "rank": 8
+    },
+    "334455999TTTJJJQQQ22": {
+        "type": "trio_pair_chain_4",
+        "rank": 8
+    },
+    "33445566999TTTJJJQQQ": {
+        "type": "trio_pair_chain_4",
+        "rank": 8
+    },
+    "44556677999TTTJJJQQQ": {
+        "type": "trio_pair_chain_4",
+        "rank": 8
+    },
+    "55667788999TTTJJJQQQ": {
+        "type": "trio_pair_chain_4",
+        "rank": 8
+    },
+    "3344TTTJJJQQQKKKAA22": {
+        "type": "trio_pair_chain_4",
+        "rank": 9
+    },
+    "334455TTTJJJQQQKKK22": {
+        "type": "trio_pair_chain_4",
+        "rank": 9
+    },
+    "33445566TTTJJJQQQKKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 9
+    },
+    "44556677TTTJJJQQQKKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 9
+    },
+    "55667788TTTJJJQQQKKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 9
+    },
+    "66778899TTTJJJQQQKKK": {
+        "type": "trio_pair_chain_4",
+        "rank": 9
+    },
+    "334455JJJQQQKKKAAA22": {
+        "type": "trio_pair_chain_4",
+        "rank": 10
+    },
+    "33445566JJJQQQKKKAAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 10
+    },
+    "44556677JJJQQQKKKAAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 10
+    },
+    "55667788JJJQQQKKKAAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 10
+    },
+    "66778899JJJQQQKKKAAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 10
+    },
+    "778899TTJJJQQQKKKAAA": {
+        "type": "trio_pair_chain_4",
+        "rank": 10
+    },
+    "33344455566778899TTAAA222": {
+        "type": "trio_pair_chain_5",
+        "rank": 0
+    },
+    "333444555778899TTJJAAA222": {
+        "type": "trio_pair_chain_5",
+        "rank": 0
+    },
+    "3334445558899TTJJQQAAA222": {
+        "type": "trio_pair_chain_5",
+        "rank": 0
+    },
+    "33344455599TTJJQQKKAAA222": {
+        "type": "trio_pair_chain_5",
+        "rank": 0
+    },
+    "333444555666778899TTJJ222": {
+        "type": "trio_pair_chain_5",
+        "rank": 1
+    },
+    "3334445556668899TTJJQQ222": {
+        "type": "trio_pair_chain_5",
+        "rank": 1
+    },
+    "33344455566699TTJJQQKK222": {
+        "type": "trio_pair_chain_5",
+        "rank": 1
+    },
+    "333444555666TTJJQQKKAA222": {
+        "type": "trio_pair_chain_5",
+        "rank": 1
+    },
+    "3334445556667778899TTJJQQ": {
+        "type": "trio_pair_chain_5",
+        "rank": 2
+    },
+    "33344455566677799TTJJQQKK": {
+        "type": "trio_pair_chain_5",
+        "rank": 2
+    },
+    "333444555666777TTJJQQKKAA": {
+        "type": "trio_pair_chain_5",
+        "rank": 2
+    },
+    "44455566677788899TTJJQQKK": {
+        "type": "trio_pair_chain_5",
+        "rank": 3
+    },
+    "444555666777888TTJJQQKKAA": {
+        "type": "trio_pair_chain_5",
+        "rank": 3
+    },
+    "555666777888999TTJJQQKKAA": {
+        "type": "trio_pair_chain_5",
+        "rank": 4
+    },
+    "334455666777888999TTTAA22": {
+        "type": "trio_pair_chain_5",
+        "rank": 5
+    },
+    "334455777888999TTTJJJAA22": {
+        "type": "trio_pair_chain_5",
+        "rank": 6
+    },
+    "33445566777888999TTTJJJ22": {
+        "type": "trio_pair_chain_5",
+        "rank": 6
+    },
+    "334455888999TTTJJJQQQAA22": {
+        "type": "trio_pair_chain_5",
+        "rank": 7
+    },
+    "33445566888999TTTJJJQQQ22": {
+        "type": "trio_pair_chain_5",
+        "rank": 7
+    },
+    "3344556677888999TTTJJJQQQ": {
+        "type": "trio_pair_chain_5",
+        "rank": 7
+    },
+    "334455999TTTJJJQQQKKKAA22": {
+        "type": "trio_pair_chain_5",
+        "rank": 8
+    },
+    "33445566999TTTJJJQQQKKK22": {
+        "type": "trio_pair_chain_5",
+        "rank": 8
+    },
+    "3344556677999TTTJJJQQQKKK": {
+        "type": "trio_pair_chain_5",
+        "rank": 8
+    },
+    "4455667788999TTTJJJQQQKKK": {
+        "type": "trio_pair_chain_5",
+        "rank": 8
+    },
+    "33445566TTTJJJQQQKKKAAA22": {
+        "type": "trio_pair_chain_5",
+        "rank": 9
+    },
+    "3344556677TTTJJJQQQKKKAAA": {
+        "type": "trio_pair_chain_5",
+        "rank": 9
+    },
+    "4455667788TTTJJJQQQKKKAAA": {
+        "type": "trio_pair_chain_5",
+        "rank": 9
+    },
+    "5566778899TTTJJJQQQKKKAAA": {
+        "type": "trio_pair_chain_5",
+        "rank": 9
+    },
+    "333444555666778899TTJJQQAAA222": {
+        "type": "trio_pair_chain_6",
+        "rank": 0
+    },
+    "3334445556668899TTJJQQKKAAA222": {
+        "type": "trio_pair_chain_6",
+        "rank": 0
+    },
+    "3334445556667778899TTJJQQKK222": {
+        "type": "trio_pair_chain_6",
+        "rank": 1
+    },
+    "33344455566677799TTJJQQKKAA222": {
+        "type": "trio_pair_chain_6",
+        "rank": 1
+    },
+    "33344455566677788899TTJJQQKKAA": {
+        "type": "trio_pair_chain_6",
+        "rank": 2
+    },
+    "33445566777888999TTTJJJQQQAA22": {
+        "type": "trio_pair_chain_6",
+        "rank": 3
+    },
+    "33445566888999TTTJJJQQQKKKAA22": {
+        "type": "trio_pair_chain_6",
+        "rank": 4
+    },
+    "3344556677888999TTTJJJQQQKKK22": {
+        "type": "trio_pair_chain_6",
+        "rank": 4
+    },
+    "3344556677999TTTJJJQQQKKKAAA22": {
+        "type": "trio_pair_chain_6",
+        "rank": 5
+    },
+    "334455667788999TTTJJJQQQKKKAAA": {
+        "type": "trio_pair_chain_6",
+        "rank": 5
+    },
+    "3333": {
+        "type": "bomb",
+        "rank": 0
+    },
+    "4444": {
+        "type": "bomb",
+        "rank": 1
+    },
+    "5555": {
+        "type": "bomb",
+        "rank": 2
+    },
+    "6666": {
+        "type": "bomb",
+        "rank": 3
+    },
+    "7777": {
+        "type": "bomb",
+        "rank": 4
+    },
+    "8888": {
+        "type": "bomb",
+        "rank": 5
+    },
+    "9999": {
+        "type": "bomb",
+        "rank": 6
+    },
+    "TTTT": {
+        "type": "bomb",
+        "rank": 7
+    },
+    "JJJJ": {
+        "type": "bomb",
+        "rank": 8
+    },
+    "QQQQ": {
+        "type": "bomb",
+        "rank": 9
+    },
+    "KKKK": {
+        "type": "bomb",
+        "rank": 10
+    },
+    "AAAA": {
+        "type": "bomb",
+        "rank": 11
+    },
+    "2222": {
+        "type": "bomb",
+        "rank": 12
+    },
+    "33333": {
+        "type": "bomb",
+        "rank": 13
+    },
+    "44444": {
+        "type": "bomb",
+        "rank": 14
+    },
+    "55555": {
+        "type": "bomb",
+        "rank": 15
+    },
+    "66666": {
+        "type": "bomb",
+        "rank": 16
+    },
+    "77777": {
+        "type": "bomb",
+        "rank": 17
+    },
+    "88888": {
+        "type": "bomb",
+        "rank": 18
+    },
+    "99999": {
+        "type": "bomb",
+        "rank": 19
+    },
+    "TTTTT": {
+        "type": "bomb",
+        "rank": 20
+    },
+    "JJJJJ": {
+        "type": "bomb",
+        "rank": 21
+    },
+    "QQQQQ": {
+        "type": "bomb",
+        "rank": 22
+    },
+    "KKKKK": {
+        "type": "bomb",
+        "rank": 23
+    },
+    "AAAAA": {
+        "type": "bomb",
+        "rank": 24
+    },
+    "22222": {
+        "type": "bomb",
+        "rank": 25
+    },
+    "333333": {
+        "type": "bomb",
+        "rank": 26
+    },
+    "444444": {
+        "type": "bomb",
+        "rank": 27
+    },
+    "555555": {
+        "type": "bomb",
+        "rank": 28
+    },
+    "666666": {
+        "type": "bomb",
+        "rank": 29
+    },
+    "777777": {
+        "type": "bomb",
+        "rank": 30
+    },
+    "888888": {
+        "type": "bomb",
+        "rank": 31
+    },
+    "999999": {
+        "type": "bomb",
+        "rank": 32
+    },
+    "TTTTTT": {
+        "type": "bomb",
+        "rank": 33
+    },
+    "JJJJJJ": {
+        "type": "bomb",
+        "rank": 34
+    },
+    "QQQQQQ": {
+        "type": "bomb",
+        "rank": 35
+    },
+    "KKKKKK": {
+        "type": "bomb",
+        "rank": 36
+    },
+    "AAAAAA": {
+        "type": "bomb",
+        "rank": 37
+    },
+    "222222": {
+        "type": "bomb",
+        "rank": 38
+    },
+    "3333333": {
+        "type": "bomb",
+        "rank": 39
+    },
+    "4444444": {
+        "type": "bomb",
+        "rank": 40
+    },
+    "5555555": {
+        "type": "bomb",
+        "rank": 41
+    },
+    "6666666": {
+        "type": "bomb",
+        "rank": 42
+    },
+    "7777777": {
+        "type": "bomb",
+        "rank": 43
+    },
+    "8888888": {
+        "type": "bomb",
+        "rank": 44
+    },
+    "9999999": {
+        "type": "bomb",
+        "rank": 45
+    },
+    "TTTTTTT": {
+        "type": "bomb",
+        "rank": 46
+    },
+    "JJJJJJJ": {
+        "type": "bomb",
+        "rank": 47
+    },
+    "QQQQQQQ": {
+        "type": "bomb",
+        "rank": 48
+    },
+    "KKKKKKK": {
+        "type": "bomb",
+        "rank": 49
+    },
+    "AAAAAAA": {
+        "type": "bomb",
+        "rank": 50
+    },
+    "2222222": {
+        "type": "bomb",
+        "rank": 51
+    },
+    "33333333": {
+        "type": "bomb",
+        "rank": 52
+    },
+    "44444444": {
+        "type": "bomb",
+        "rank": 53
+    },
+    "55555555": {
+        "type": "bomb",
+        "rank": 54
+    },
+    "66666666": {
+        "type": "bomb",
+        "rank": 55
+    },
+    "77777777": {
+        "type": "bomb",
+        "rank": 56
+    },
+    "88888888": {
+        "type": "bomb",
+        "rank": 57
+    },
+    "99999999": {
+        "type": "bomb",
+        "rank": 58
+    },
+    "TTTTTTTT": {
+        "type": "bomb",
+        "rank": 59
+    },
+    "JJJJJJJJ": {
+        "type": "bomb",
+        "rank": 60
+    },
+    "QQQQQQQQ": {
+        "type": "bomb",
+        "rank": 61
+    },
+    "KKKKKKKK": {
+        "type": "bomb",
+        "rank": 62
+    },
+    "AAAAAAAA": {
+        "type": "bomb",
+        "rank": 63
+    },
+    "22222222": {
+        "type": "bomb",
+        "rank": 64
+    },
+    "BBRR": {
+        "type": "bomb",
+        "rank": 65
+    }
+}
