@@ -135,6 +135,7 @@ class ShanghaiDoudizhuGame:
         state = player.get_state(actions)
         state['landlord_id'] = self.landlord_id
         state['trace'] = self.round.trace
+        state['bid_levels'] = [p.bid_level for p in self.players]
         return state
 
     @staticmethod

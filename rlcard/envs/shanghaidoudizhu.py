@@ -1,6 +1,6 @@
 from collections import Counter, OrderedDict
 import numpy as np
-
+from functools import lru_cache
 from rlcard.envs.env import Env
 from rlcard.games.shanghaidoudizhu.utils import ACTION_2_ID, ACTIONS
 
@@ -12,21 +12,22 @@ class ShanghaiDouDiZhuEnv(Env):
         self.name = 'shanghai-doudizhu'
         self.game = Game()
         super().__init__(config)
-        self.state_shape = [[5861], [5861], [5861], [5861]]
-        self.action_shape = [[56 + 4] for _ in range(self.num_players)]
+        self.state_shape = [[5869], [5869], [5869], [5869]]
+        self.action_shape = [[59] for _ in range(self.num_players)]
 
     def _extract_state(self, state):
         trace = np.zeros((100, 58), dtype=np.int8)
         for i, (pid, cards) in enumerate(state['trace']):
             trace[i] = np.concatenate((_number2onehot(pid, 2), _cards2array(cards)))
 
+        bid_levels = np.array([_number2onehot(level if level >= 0 else 0, 2) for level in state['bid_levels']])
+
         obs = np.concatenate((_cards2array(state['current_hand']),
                               _number2onehot(state['id'], 2),
-                              _number2onehot(state['landlord_id'] + 1, 3),
-                              trace.flatten()
+                              _number2onehot(state['landlord_id'] if state['landlord_id'] >= 0 else 0, 3),
+                              trace.flatten(),
+                              bid_levels.flatten()
                               ))
-        print(obs.shape)
-
         return {'obs': obs,
                 'legal_actions': self._get_legal_actions(),
                 'raw_legal_actions': state['actions'],
@@ -53,6 +54,9 @@ class ShanghaiDouDiZhuEnv(Env):
         '''
         return self.game.get_payoffs()
 
+    def get_action_feature(self, action):
+        return _action2array(self._decode_action(action))
+
 
 def _number2onehot(number, length):
     return np.array([int(i) for i in f'{number:0{length}b}'])
@@ -64,6 +68,7 @@ BID_POSITION = 56
 REPORT_POSITION = 58
 
 
+@lru_cache(650)
 def _cards2array(cards):
     array = np.zeros(56, dtype=np.int8)
     if cards != 'pass':
@@ -75,6 +80,7 @@ def _cards2array(cards):
     return array
 
 
+@lru_cache(660)
 def _action2array(action):
     array = np.zeros(59, dtype=np.int8)
     if action != 'pass':
