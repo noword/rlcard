@@ -28,6 +28,8 @@ class ShanghaiDoudizhuRound:
             (int): The game_pointer that indicates the next player
         '''
         player = players[self.current_player_id]
+        if action != 'pass':
+            self.trace.append((self.current_player_id, action))
         if action.startswith('report'):
             return self.current_player_id
         elif action.startswith('bid'):
@@ -36,7 +38,6 @@ class ShanghaiDoudizhuRound:
                 self.greater_player = player
         else:
             if action != 'pass':
-                self.trace.append((self.current_player_id, action))
                 self.greater_player = player
                 player.played_cards = action
             player.play_cards(action)

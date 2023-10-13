@@ -11,13 +11,16 @@ from .utils import ACTIONS
 
 class ShanghaiDoudizhuGame:
     def __init__(self, allow_step_back=False):
+        if allow_step_back:
+            raise NotImplementedError
+
         self.allow_step_back = allow_step_back
         self.np_random = np.random.RandomState()
         self.num_players = 4
+        self.judger = Judger()
+        self.dealer = Dealer(self.np_random)
 
     def init_game(self):
-        self.history = []
-
         self.winner_id = None
         self.landlord_id = -1
         self.reported = []
@@ -25,12 +28,10 @@ class ShanghaiDoudizhuGame:
         self.players = [Player(num, self.np_random) for num in range(self.num_players)]
 
         # 发牌
-        cards = Dealer(self.np_random).deal_cards()
+        cards = self.dealer.deal_cards()
         for i in range(4):
             self.players[i].set_current_hand(cards[i])
         self.hole_cards = cards[-1]
-
-        self.judger = Judger()
 
         self.round = Round(self.np_random)
         self.first_bidder = self.round.initiate()
@@ -70,10 +71,9 @@ class ShanghaiDoudizhuGame:
         '''
         if self.allow_step_back:
             # TODO: don't record game.round, game.players, game.judger if allow_step_back not set
-            pass
+            raise NotImplementedError
 
         current_id = self.round.current_player_id
-        self.history.append((current_id, action))
 
         # for p in self.players:
         #     from .utils import sort_cards, cards2str
@@ -136,6 +136,8 @@ class ShanghaiDoudizhuGame:
         state['landlord_id'] = self.landlord_id
         state['trace'] = self.round.trace
         state['bid_levels'] = [p.bid_level for p in self.players]
+        state['allow_bomb_number'] = [p.allow_bomb_number for p in self.players]
+        state['cards_number'] = [len(p.current_hand) for p in self.players]
         return state
 
     @staticmethod
