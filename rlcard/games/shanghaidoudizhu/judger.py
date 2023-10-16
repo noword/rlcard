@@ -12,12 +12,17 @@ from .utils import (cards2str,
 
 class ShanghaiDoudizhuJudger:
     def get_playable_cards(self, player):
-        return get_playable_cards(cards2str(sort_cards(player.current_hand)))
+        return get_playable_cards(cards2str(sort_cards(player.current_hand)),
+                                  player.allow_bomb_number > 0,
+                                  ','.join(player.reported_cards)
+                                  )
 
     def get_gt_cards(self, player, greater_player):
         current_cards = cards2str(sort_cards(player.current_hand))
         target_cards = greater_player.played_cards
-        return get_gt_cards(current_cards, target_cards, player.allow_bomb_number)
+        return get_gt_cards(current_cards, target_cards,
+                            player.allow_bomb_number > 0,
+                            ','.join(player.reported_cards))
 
     def get_reported_cards(self, player):
         '''

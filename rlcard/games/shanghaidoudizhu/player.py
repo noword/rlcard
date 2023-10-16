@@ -10,10 +10,9 @@ class ShanghaiDouDiZhuPlayer:
         self.played_cards = None
         self.bid_level = -1
         self.allow_bomb_number = 1
-        # record cards removed from self._current_hand for each play()
-        # and restore cards back to self._current_hand when play_back()
         self.recorded_played_cards = []
         self.reported = False
+        self.reported_cards = []
 
     @property
     def current_hand(self):
@@ -46,19 +45,23 @@ class ShanghaiDouDiZhuPlayer:
         return ['pass',] + judger.get_gt_cards(self, greater_player)
 
     def play_cards(self, cards):
+        self.recorded_played_cards.append(cards)
         if cards != 'pass':
             if CARD_TYPE[cards]['type'] == 'bomb':
                 self.allow_bomb_number -= 1
 
-            remain_cards = self._current_hand.copy()
-            for card in cards:
-                for i, remain in enumerate(remain_cards):
-                    if str(remain)[0] == card:
-                        remain_cards.pop(i)
-                        break
+            if cards in self.reported_cards:
+                self.reported_cards.remove(cards)
+
+            remain_cards = []
+            cards = list(cards)
+            for card in self._current_hand:
+                if str(card)[0] in cards:
+                    cards.remove(str(card)[0])
+                else:
+                    remain_cards.append(card)
 
             self._current_hand = remain_cards
-        self.recorded_played_cards.append(cards)
 
     def get_state(self, actions):
         return {'actions': actions,

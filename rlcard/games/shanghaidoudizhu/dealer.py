@@ -17,6 +17,7 @@ class ShanghaiDoudizhuDealer:
         '''
         4个玩家, 每人25张, 底牌8张
         '''
+        self.shuffle()
         cards = []
         for i in range(4):
             cards.append(self.deck[i * 25: (i + 1) * 25])

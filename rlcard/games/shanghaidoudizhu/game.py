@@ -18,17 +18,15 @@ class ShanghaiDoudizhuGame:
         self.np_random = np.random.RandomState()
         self.num_players = 4
         self.judger = Judger()
-        self.dealer = Dealer(self.np_random)
 
     def init_game(self):
         self.winner_id = None
         self.landlord_id = -1
-        self.reported = []
 
         self.players = [Player(num, self.np_random) for num in range(self.num_players)]
 
         # 发牌
-        cards = self.dealer.deal_cards()
+        cards = Dealer(self.np_random).deal_cards()
         for i in range(4):
             self.players[i].set_current_hand(cards[i])
         self.hole_cards = cards[-1]
@@ -80,7 +78,7 @@ class ShanghaiDoudizhuGame:
         #     print(cards2str(sort_cards(p.current_hand)))
 
         if action == 'report_1':
-            self.reported = self.judger.get_reported_cards(self.players[current_id])
+            self.players[current_id].reported_cards = self.judger.get_reported_cards(self.players[current_id])
 
         next_id = self.round.proceed_round(self.players, action)
 
@@ -162,11 +160,11 @@ class ShanghaiDoudizhuGame:
         # 为了简化计算, 只加分，不扣分
         payoffs = np.zeros(4)
         score = self.players[self.landlord_id].bid_level
-        if len(self.reported) > 0:
+        if len(self.players[self.landlord_id].reported_cards) > 0:
             # 报到局
             if self.winner_id == self.landlord_id:
                 # 地主赢
-                payoffs[self.landlord_id] = score * (len(self.reported) + 1) * 3
+                payoffs[self.landlord_id] = score * (len(self.players[self.landlord_id].reported_cards) + 1) * 3
         else:
             if self.winner_id == self.landlord_id:
                 payoffs[self.landlord_id] = score * 3
