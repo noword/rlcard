@@ -12,24 +12,27 @@ class ShanghaiDouDiZhuEnv(Env):
         self.name = 'shanghai-doudizhu'
         self.game = Game()
         super().__init__(config)
-        self.state_shape = [[1405,], [1405,], [1405,], [1405,]]
+        self.state_shape = [[6269,], [6269,], [6269,], [6269,]]
         self.action_shape = [[59] for _ in range(self.num_players)]
 
     def _extract_state(self, state):
-        trace = np.zeros((110, 12), dtype=np.int8)
-        for i, (pid, cards) in enumerate(state['trace']):
-            trace[i] = _number2onehot(pid << 10 | ACTION_2_ID[cards], 12)
-            # trace[i] = np.concatenate((_number2onehot(pid, 2), _number2onehot(ACTION_2_ID[cards], 10)))
+        trace = np.zeros((100, 61), dtype=np.int8)
+        for i, (pid, action, _) in enumerate(state['trace']):
+            trace[i] = np.concatenate((_number2onehot(pid, 2), _action2array(action)))
 
-        bid_levels = np.array([_number2onehot(level if level >= 0 else 0, 2) for level in state['bid_levels']])
+        bid_levels = np.array([_number2onehot(level + 1, 3) for level in state['bid_levels']])
         allow_bomb_number = np.array([_number2onehot(b, 4) for b in state['allow_bomb_number']])
+        cards_number = np.array([_number2onehot(n, 6) for n in state['cards_number']])
+        reported_cards = _cards2array(''.join(state['reported_cards']))
 
         obs = np.concatenate((_cards2array(state['current_hand']),
                               _number2onehot(state['id'], 2),
-                              _number2onehot(state['landlord_id'] if state['landlord_id'] >= 0 else 0, 3),
+                              _number2onehot(state['landlord_id'] + 1, 3),
                               trace.flatten(),
                               bid_levels.flatten(),
                               allow_bomb_number.flatten(),
+                              cards_number.flatten(),
+                              reported_cards
                               ))
 
         return {'obs': obs,
@@ -89,7 +92,7 @@ def _action2array(action):
     array = np.zeros(59, dtype=np.int8)
     if action != 'pass':
         if action.startswith('report'):
-            array[REPORT_POSITION] = _number2onehot(int(action[-1]), 1)
+            array[REPORT_POSITION] = int(action[-1])
         elif action.startswith('bid'):
             array[BID_POSITION:BID_POSITION + 2] = _number2onehot(int(action[-1]), 2)
         else:

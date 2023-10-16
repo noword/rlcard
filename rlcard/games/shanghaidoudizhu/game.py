@@ -136,6 +136,7 @@ class ShanghaiDoudizhuGame:
         state['bid_levels'] = [p.bid_level for p in self.players]
         state['allow_bomb_number'] = [p.allow_bomb_number for p in self.players]
         state['cards_number'] = [len(p.current_hand) for p in self.players]
+        state['reported_cards'] = self.players[self.landlord_id].reported_cards
         return state
 
     @staticmethod

@@ -1,6 +1,6 @@
 import numpy as np
 from .dealer import ShanghaiDoudizhuDealer
-from .utils import cards2str
+from .utils import cards2str, sort_cards
 
 
 class ShanghaiDoudizhuRound:
@@ -29,7 +29,7 @@ class ShanghaiDoudizhuRound:
         '''
         player = players[self.current_player_id]
         if action != 'pass':
-            self.trace.append((self.current_player_id, action))
+            self.trace.append((self.current_player_id, action, cards2str(sort_cards(player.current_hand))))
         if action.startswith('report'):
             return self.current_player_id
         elif action.startswith('bid'):
